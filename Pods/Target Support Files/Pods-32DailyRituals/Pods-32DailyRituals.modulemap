@@ -1,0 +1,6 @@
+framework module Pods_32DailyRituals {
+  umbrella header "Pods-32DailyRituals-umbrella.h"
+
+  export *
+  module * { export * }
+}

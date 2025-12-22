@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741B2F242EF9CCEC00E6599F /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2EF72EF9CCEC00E6599F /* Color+Hex.swift */; };
+		741B2F252EF9CCEC00E6599F /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2EF92EF9CCEC00E6599F /* Achievement.swift */; };
+		741B2F262EF9CCEC00E6599F /* CompletionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2EFA2EF9CCEC00E6599F /* CompletionStatus.swift */; };
+		741B2F272EF9CCEC00E6599F /* DailyRitual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2EFB2EF9CCEC00E6599F /* DailyRitual.swift */; };
+		741B2F282EF9CCEC00E6599F /* DailySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2EFC2EF9CCEC00E6599F /* DailySummary.swift */; };
+		741B2F292EF9CCEC00E6599F /* PriorityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2EFD2EF9CCEC00E6599F /* PriorityLevel.swift */; };
+		741B2F2A2EF9CCEC00E6599F /* RitualCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2EFE2EF9CCEC00E6599F /* RitualCategory.swift */; };
+		741B2F2B2EF9CCEC00E6599F /* RitualSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2EFF2EF9CCEC00E6599F /* RitualSession.swift */; };
+		741B2F2C2EF9CCEC00E6599F /* TimeOfDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F002EF9CCEC00E6599F /* TimeOfDay.swift */; };
+		741B2F2D2EF9CCEC00E6599F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F022EF9CCEC00E6599F /* DataManager.swift */; };
+		741B2F2E2EF9CCEC00E6599F /* RitualRecommender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F032EF9CCEC00E6599F /* RitualRecommender.swift */; };
+		741B2F2F2EF9CCEC00E6599F /* StreakSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F042EF9CCEC00E6599F /* StreakSystem.swift */; };
+		741B2F302EF9CCEC00E6599F /* AchievementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F062EF9CCEC00E6599F /* AchievementViewModel.swift */; };
+		741B2F312EF9CCEC00E6599F /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F072EF9CCEC00E6599F /* AnalyticsViewModel.swift */; };
+		741B2F322EF9CCEC00E6599F /* RitualViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F082EF9CCEC00E6599F /* RitualViewModel.swift */; };
+		741B2F332EF9CCEC00E6599F /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F092EF9CCEC00E6599F /* SessionViewModel.swift */; };
+		741B2F342EF9CCEC00E6599F /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F0B2EF9CCEC00E6599F /* CheckLink.swift */; };
+		741B2F352EF9CCEC00E6599F /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F0C2EF9CCEC00E6599F /* InternetViewController.swift */; };
+		741B2F362EF9CCEC00E6599F /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F0D2EF9CCEC00E6599F /* LoaderViewController.swift */; };
+		741B2F372EF9CCEC00E6599F /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F0F2EF9CCEC00E6599F /* AchievementsView.swift */; };
+		741B2F382EF9CCEC00E6599F /* AddEditRitualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F102EF9CCEC00E6599F /* AddEditRitualView.swift */; };
+		741B2F392EF9CCEC00E6599F /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F112EF9CCEC00E6599F /* AnalyticsView.swift */; };
+		741B2F3A2EF9CCEC00E6599F /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F122EF9CCEC00E6599F /* MainDashboardView.swift */; };
+		741B2F3B2EF9CCEC00E6599F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F132EF9CCEC00E6599F /* OnboardingView.swift */; };
+		741B2F3C2EF9CCEC00E6599F /* RitualDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F142EF9CCEC00E6599F /* RitualDetailView.swift */; };
+		741B2F3D2EF9CCEC00E6599F /* RitualListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F152EF9CCEC00E6599F /* RitualListView.swift */; };
+		741B2F3E2EF9CCEC00E6599F /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F162EF9CCEC00E6599F /* SessionView.swift */; };
+		741B2F3F2EF9CCEC00E6599F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F172EF9CCEC00E6599F /* SettingsView.swift */; };
+		741B2F402EF9CCEC00E6599F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F192EF9CCEC00E6599F /* AppDelegate.swift */; };
+		741B2F412EF9CCEC00E6599F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F1B2EF9CCEC00E6599F /* ContentView.swift */; };
+		741B2F422EF9CCEC00E6599F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F212EF9CCEC00E6599F /* SceneDelegate.swift */; };
+		741B2F432EF9CCEC00E6599F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B2F222EF9CCEC00E6599F /* ViewController.swift */; };
+		741B2F442EF9CCEC00E6599F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741B2F1A2EF9CCEC00E6599F /* Assets.xcassets */; };
+		741B2F462EF9CCEC00E6599F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741B2F1E2EF9CCEC00E6599F /* LaunchScreen.storyboard */; };
+		741B2F472EF9CCEC00E6599F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741B2F202EF9CCEC00E6599F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62691016BD5C648712807B3D /* Pods-32DailyRituals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-32DailyRituals.release.xcconfig"; path = "Target Support Files/Pods-32DailyRituals/Pods-32DailyRituals.release.xcconfig"; sourceTree = "<group>"; };
+		741B2B792EF55C4A00E6599F /* 32DailyRituals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 32DailyRituals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741B2EF72EF9CCEC00E6599F /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		741B2EF92EF9CCEC00E6599F /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		741B2EFA2EF9CCEC00E6599F /* CompletionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionStatus.swift; sourceTree = "<group>"; };
+		741B2EFB2EF9CCEC00E6599F /* DailyRitual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRitual.swift; sourceTree = "<group>"; };
+		741B2EFC2EF9CCEC00E6599F /* DailySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySummary.swift; sourceTree = "<group>"; };
+		741B2EFD2EF9CCEC00E6599F /* PriorityLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityLevel.swift; sourceTree = "<group>"; };
+		741B2EFE2EF9CCEC00E6599F /* RitualCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCategory.swift; sourceTree = "<group>"; };
+		741B2EFF2EF9CCEC00E6599F /* RitualSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualSession.swift; sourceTree = "<group>"; };
+		741B2F002EF9CCEC00E6599F /* TimeOfDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDay.swift; sourceTree = "<group>"; };
+		741B2F022EF9CCEC00E6599F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		741B2F032EF9CCEC00E6599F /* RitualRecommender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualRecommender.swift; sourceTree = "<group>"; };
+		741B2F042EF9CCEC00E6599F /* StreakSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakSystem.swift; sourceTree = "<group>"; };
+		741B2F062EF9CCEC00E6599F /* AchievementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewModel.swift; sourceTree = "<group>"; };
+		741B2F072EF9CCEC00E6599F /* AnalyticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewModel.swift; sourceTree = "<group>"; };
+		741B2F082EF9CCEC00E6599F /* RitualViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualViewModel.swift; sourceTree = "<group>"; };
+		741B2F092EF9CCEC00E6599F /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		741B2F0B2EF9CCEC00E6599F /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		741B2F0C2EF9CCEC00E6599F /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		741B2F0D2EF9CCEC00E6599F /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		741B2F0F2EF9CCEC00E6599F /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		741B2F102EF9CCEC00E6599F /* AddEditRitualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditRitualView.swift; sourceTree = "<group>"; };
+		741B2F112EF9CCEC00E6599F /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		741B2F122EF9CCEC00E6599F /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
+		741B2F132EF9CCEC00E6599F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		741B2F142EF9CCEC00E6599F /* RitualDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualDetailView.swift; sourceTree = "<group>"; };
+		741B2F152EF9CCEC00E6599F /* RitualListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualListView.swift; sourceTree = "<group>"; };
+		741B2F162EF9CCEC00E6599F /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		741B2F172EF9CCEC00E6599F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		741B2F192EF9CCEC00E6599F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		741B2F1A2EF9CCEC00E6599F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741B2F1B2EF9CCEC00E6599F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		741B2F1C2EF9CCEC00E6599F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741B2F1D2EF9CCEC00E6599F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741B2F1F2EF9CCEC00E6599F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741B2F212EF9CCEC00E6599F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		741B2F222EF9CCEC00E6599F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8376A2B4311009C2F4DC2B0 /* Pods_32DailyRituals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_32DailyRituals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA00BA19DC563E94E85243E0 /* Pods-32DailyRituals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-32DailyRituals.debug.xcconfig"; path = "Target Support Files/Pods-32DailyRituals/Pods-32DailyRituals.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741B2B762EF55C4A00E6599F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF0B909F55930274E5B3757 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA00BA19DC563E94E85243E0 /* Pods-32DailyRituals.debug.xcconfig */,
+				62691016BD5C648712807B3D /* Pods-32DailyRituals.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		741B2B702EF55C4A00E6599F = {
+			isa = PBXGroup;
+			children = (
+				741B2F232EF9CCEC00E6599F /* 32DailyRituals */,
+				741B2B7A2EF55C4A00E6599F /* Products */,
+				3DF0B909F55930274E5B3757 /* Pods */,
+				D7378386E65DD53A0DB82193 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		741B2B7A2EF55C4A00E6599F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741B2B792EF55C4A00E6599F /* 32DailyRituals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741B2EF82EF9CCEC00E6599F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				741B2EF72EF9CCEC00E6599F /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		741B2F012EF9CCEC00E6599F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				741B2EF92EF9CCEC00E6599F /* Achievement.swift */,
+				741B2EFA2EF9CCEC00E6599F /* CompletionStatus.swift */,
+				741B2EFB2EF9CCEC00E6599F /* DailyRitual.swift */,
+				741B2EFC2EF9CCEC00E6599F /* DailySummary.swift */,
+				741B2EFD2EF9CCEC00E6599F /* PriorityLevel.swift */,
+				741B2EFE2EF9CCEC00E6599F /* RitualCategory.swift */,
+				741B2EFF2EF9CCEC00E6599F /* RitualSession.swift */,
+				741B2F002EF9CCEC00E6599F /* TimeOfDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		741B2F052EF9CCEC00E6599F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				741B2F022EF9CCEC00E6599F /* DataManager.swift */,
+				741B2F032EF9CCEC00E6599F /* RitualRecommender.swift */,
+				741B2F042EF9CCEC00E6599F /* StreakSystem.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		741B2F0A2EF9CCEC00E6599F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				741B2F062EF9CCEC00E6599F /* AchievementViewModel.swift */,
+				741B2F072EF9CCEC00E6599F /* AnalyticsViewModel.swift */,
+				741B2F082EF9CCEC00E6599F /* RitualViewModel.swift */,
+				741B2F092EF9CCEC00E6599F /* SessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		741B2F0E2EF9CCEC00E6599F /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				741B2F0B2EF9CCEC00E6599F /* CheckLink.swift */,
+				741B2F0C2EF9CCEC00E6599F /* InternetViewController.swift */,
+				741B2F0D2EF9CCEC00E6599F /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		741B2F182EF9CCEC00E6599F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				741B2F0E2EF9CCEC00E6599F /* LoadingView */,
+				741B2F0F2EF9CCEC00E6599F /* AchievementsView.swift */,
+				741B2F102EF9CCEC00E6599F /* AddEditRitualView.swift */,
+				741B2F112EF9CCEC00E6599F /* AnalyticsView.swift */,
+				741B2F122EF9CCEC00E6599F /* MainDashboardView.swift */,
+				741B2F132EF9CCEC00E6599F /* OnboardingView.swift */,
+				741B2F142EF9CCEC00E6599F /* RitualDetailView.swift */,
+				741B2F152EF9CCEC00E6599F /* RitualListView.swift */,
+				741B2F162EF9CCEC00E6599F /* SessionView.swift */,
+				741B2F172EF9CCEC00E6599F /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		741B2F232EF9CCEC00E6599F /* 32DailyRituals */ = {
+			isa = PBXGroup;
+			children = (
+				741B2EF82EF9CCEC00E6599F /* Extensions */,
+				741B2F012EF9CCEC00E6599F /* Models */,
+				741B2F052EF9CCEC00E6599F /* Services */,
+				741B2F0A2EF9CCEC00E6599F /* ViewModels */,
+				741B2F182EF9CCEC00E6599F /* Views */,
+				741B2F192EF9CCEC00E6599F /* AppDelegate.swift */,
+				741B2F1A2EF9CCEC00E6599F /* Assets.xcassets */,
+				741B2F1B2EF9CCEC00E6599F /* ContentView.swift */,
+				741B2F1C2EF9CCEC00E6599F /* Info.plist */,
+				741B2F1E2EF9CCEC00E6599F /* LaunchScreen.storyboard */,
+				741B2F202EF9CCEC00E6599F /* Main.storyboard */,
+				741B2F212EF9CCEC00E6599F /* SceneDelegate.swift */,
+				741B2F222EF9CCEC00E6599F /* ViewController.swift */,
+			);
+			path = 32DailyRituals;
+			sourceTree = "<group>";
+		};
+		D7378386E65DD53A0DB82193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8376A2B4311009C2F4DC2B0 /* Pods_32DailyRituals.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741B2B782EF55C4A00E6599F /* 32DailyRituals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741B2B8C2EF55C4B00E6599F /* Build configuration list for PBXNativeTarget "32DailyRituals" */;
+			buildPhases = (
+				C103B8A91BDA9B29C658E553 /* [CP] Check Pods Manifest.lock */,
+				741B2B752EF55C4A00E6599F /* Sources */,
+				741B2B762EF55C4A00E6599F /* Frameworks */,
+				741B2B772EF55C4A00E6599F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 32DailyRituals;
+			productName = 32DailyRituals;
+			productReference = 741B2B792EF55C4A00E6599F /* 32DailyRituals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741B2B712EF55C4A00E6599F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					741B2B782EF55C4A00E6599F = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 741B2B742EF55C4A00E6599F /* Build configuration list for PBXProject "32DailyRituals" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741B2B702EF55C4A00E6599F;
+			productRefGroup = 741B2B7A2EF55C4A00E6599F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741B2B782EF55C4A00E6599F /* 32DailyRituals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741B2B772EF55C4A00E6599F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741B2F442EF9CCEC00E6599F /* Assets.xcassets in Resources */,
+				741B2F462EF9CCEC00E6599F /* LaunchScreen.storyboard in Resources */,
+				741B2F472EF9CCEC00E6599F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C103B8A91BDA9B29C658E553 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-32DailyRituals-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741B2B752EF55C4A00E6599F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741B2F242EF9CCEC00E6599F /* Color+Hex.swift in Sources */,
+				741B2F252EF9CCEC00E6599F /* Achievement.swift in Sources */,
+				741B2F262EF9CCEC00E6599F /* CompletionStatus.swift in Sources */,
+				741B2F272EF9CCEC00E6599F /* DailyRitual.swift in Sources */,
+				741B2F282EF9CCEC00E6599F /* DailySummary.swift in Sources */,
+				741B2F292EF9CCEC00E6599F /* PriorityLevel.swift in Sources */,
+				741B2F2A2EF9CCEC00E6599F /* RitualCategory.swift in Sources */,
+				741B2F2B2EF9CCEC00E6599F /* RitualSession.swift in Sources */,
+				741B2F2C2EF9CCEC00E6599F /* TimeOfDay.swift in Sources */,
+				741B2F2D2EF9CCEC00E6599F /* DataManager.swift in Sources */,
+				741B2F2E2EF9CCEC00E6599F /* RitualRecommender.swift in Sources */,
+				741B2F2F2EF9CCEC00E6599F /* StreakSystem.swift in Sources */,
+				741B2F302EF9CCEC00E6599F /* AchievementViewModel.swift in Sources */,
+				741B2F312EF9CCEC00E6599F /* AnalyticsViewModel.swift in Sources */,
+				741B2F322EF9CCEC00E6599F /* RitualViewModel.swift in Sources */,
+				741B2F332EF9CCEC00E6599F /* SessionViewModel.swift in Sources */,
+				741B2F342EF9CCEC00E6599F /* CheckLink.swift in Sources */,
+				741B2F352EF9CCEC00E6599F /* InternetViewController.swift in Sources */,
+				741B2F362EF9CCEC00E6599F /* LoaderViewController.swift in Sources */,
+				741B2F372EF9CCEC00E6599F /* AchievementsView.swift in Sources */,
+				741B2F382EF9CCEC00E6599F /* AddEditRitualView.swift in Sources */,
+				741B2F392EF9CCEC00E6599F /* AnalyticsView.swift in Sources */,
+				741B2F3A2EF9CCEC00E6599F /* MainDashboardView.swift in Sources */,
+				741B2F3B2EF9CCEC00E6599F /* OnboardingView.swift in Sources */,
+				741B2F3C2EF9CCEC00E6599F /* RitualDetailView.swift in Sources */,
+				741B2F3D2EF9CCEC00E6599F /* RitualListView.swift in Sources */,
+				741B2F3E2EF9CCEC00E6599F /* SessionView.swift in Sources */,
+				741B2F3F2EF9CCEC00E6599F /* SettingsView.swift in Sources */,
+				741B2F402EF9CCEC00E6599F /* AppDelegate.swift in Sources */,
+				741B2F412EF9CCEC00E6599F /* ContentView.swift in Sources */,
+				741B2F422EF9CCEC00E6599F /* SceneDelegate.swift in Sources */,
+				741B2F432EF9CCEC00E6599F /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		741B2F1E2EF9CCEC00E6599F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741B2F1D2EF9CCEC00E6599F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		741B2F202EF9CCEC00E6599F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741B2F1F2EF9CCEC00E6599F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741B2B8D2EF55C4B00E6599F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA00BA19DC563E94E85243E0 /* Pods-32DailyRituals.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 32DailyRituals/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "VolkDaily Rituals";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pet.v0lkd41lr3t;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		741B2B8E2EF55C4B00E6599F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62691016BD5C648712807B3D /* Pods-32DailyRituals.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 32DailyRituals/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "VolkDaily Rituals";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pet.v0lkd41lr3t;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		741B2B8F2EF55C4B00E6599F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		741B2B902EF55C4B00E6599F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741B2B742EF55C4A00E6599F /* Build configuration list for PBXProject "32DailyRituals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741B2B8F2EF55C4B00E6599F /* Debug */,
+				741B2B902EF55C4B00E6599F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741B2B8C2EF55C4B00E6599F /* Build configuration list for PBXNativeTarget "32DailyRituals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741B2B8D2EF55C4B00E6599F /* Debug */,
+				741B2B8E2EF55C4B00E6599F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741B2B712EF55C4A00E6599F /* Project object */;
+}
